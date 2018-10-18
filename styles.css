@@ -1,31 +1,59 @@
 /* Step 1 - Add a nice background */
 body {
-
+    background-color: rgba(167, 175, 183, 0.7)
 }
 
 /* Step 2 - Add a nice card style */
 .card {
-
+background-color:red;
+color:rgba(1, 1, 1, 0);
+width: 100px;
+height: 100px;
 }
 
 /* Step 3 - Add a nice hover effect */
 .card:hover {
-
+background-color: orange;
 }
 
 /* Step 4 (+4 points) - Write a style for a flipped card */
 .flipped {
-
+background-color: blue;
+color:white;
 }
+
+
 
 /* Step 5 - Add a nice style to the message element */
 #message {
-
+    background-color: rgba(22, 221, 198, 0.5)
 }
 
 /* Step 6 - Add 5 more style changes... */
 /* 1) */
+.setted{
+    background-color: green;
+    color:white;
+}
 /* 2) */
+#gameboard{
+   
+    display: grid;
+        grid-template-rows: auto auto auto;
+        grid-template-columns: auto auto auto auto auto  auto auto auto auto auto auto  auto ;
+        grid-gap: 20px 20px;
+      
+}
 /* 3) */
+.flipped:hover{
+    background-color: skyblue;
+}
 /* 4) */
+.setted:hover{
+    background-color: greenyellow;
+}
 /* 5) */
+.setted{
+    background-color: green;
+    color:white;
+}
